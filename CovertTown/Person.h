@@ -17,6 +17,4 @@ private:
    void setHealth(float health) { mHealth = health; };
    void setAttributes(std::vector<std::string> attributes) { mAttributes = attributes; };
 
-
- 
 };

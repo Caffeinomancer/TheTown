@@ -2,6 +2,8 @@
 
 int main()
 {
+   Initialize();
+
    char input[32];
    cin.getline(input, 32);
    

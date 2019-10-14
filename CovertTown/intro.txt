@@ -1,0 +1,10 @@
+Before we begin, what is your name?
+
+Welcome to The Town
+
+You are about to have your own personal A.I. ant farm. 
+
+You will play a god in this world, 
+Though you cannot directly impact the lives of the citizens of The Town 
+you may introduce new A.I. and disasters to see how The Town reacts.
+Now then, let's begin!
