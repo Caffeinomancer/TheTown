@@ -1,5 +1,21 @@
 #include "Program.h"
 
+void GameLoop()
+{
+   bool exit = false;
+   int a = 9;
+   do
+   {
+      CheckInput(&exit);
+   } while (!exit);
+}
+
+void CheckInput(bool shouldQuit)
+{
+   if(GetAsyncKeyState(VK_ESCAPE))
+      shouldQuit = true;
+}
+
 void Initialize()
 {
    bool inputValid = false;
@@ -88,8 +104,6 @@ void NewTown()
 
    of.open("data.txt", std::ofstream::trunc);
    of << "1--|Name: " << name;
-   
-
    of.close();
 }
 

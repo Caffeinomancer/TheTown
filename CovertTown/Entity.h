@@ -1,6 +1,6 @@
 #pragma once
-#include <vector>
-#include <string>
+
+#include "Program.h" 
 
 class Entity
 {
@@ -8,16 +8,14 @@ public:
    Entity();
    ~Entity();
 
-   virtual void setName(std::string) = 0;
-   virtual void setHealth(int health) = 0;
-   virtual void setAttributes(std::vector<std::string> attributes);
-
 protected:
-   std::string mName;
+   virtual void setName(string) = 0;
+   virtual void setHealth(int health) = 0;
+   virtual void setAttributes(vector<string> attributes);
 
+   std::string mName;
    float mHealth;
-   
-   std::vector<std::string> mAttributes;
+   vector<string> mAttributes;
 
 private:
 
